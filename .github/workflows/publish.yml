@@ -19,8 +19,18 @@ jobs:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Check versions
+      - name: Check versions (before)
         run: |
+          echo "=== Before npm update ==="
+          node --version
+          npm --version
+
+      - name: Update npm to latest
+        run: npm install -g npm@latest
+
+      - name: Check versions (after)
+        run: |
+          echo "=== After npm update ==="
           node --version
           npm --version
 
