@@ -1,0 +1,9 @@
+{
+  "name": "jina-oidc-learning-pkg",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "Test package for learning npm OIDC publishing",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
