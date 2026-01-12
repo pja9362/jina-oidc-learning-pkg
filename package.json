@@ -1,13 +1,13 @@
 {
   "name": "jina-oidc-learning-pkg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "description": "Test package for learning npm OIDC publishing",
   "repository": {
     "type": "git",
     "url": "https://github.com/pja9362/jina-oidc-learning-pkg"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["oidc", "test", "provenance"],
+  "author": "jina-park",
   "license": "ISC"
 }
